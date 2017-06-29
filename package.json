@@ -1,13 +1,10 @@
 {
   "name": "koas",
-  "version": "0.0.1",
-  "description": "web server with koa2",
-  "main": "index.js",
-  "bin": {
-    "koas": "bin/koas"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "dev": "node index",
+    "dev": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -18,18 +15,5 @@
     "koa-onerror": "^1.3.1",
     "koa-router": "^7.2.1",
     "koa-static": "^3.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hujewelz/koas.git"
-  },
-  "keywords": [
-    "koa2"
-  ],
-  "author": "Hu Jewelz",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hujewelz/koas/issues"
-  },
-  "homepage": "https://github.com/hujewelz/koas#readme"
+  }
 }
